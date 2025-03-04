@@ -1,5 +1,17 @@
+import Logo from "./Logo";
+import Title from "./Title";
+import Subtitle from "./Subtitle";
+import Form from "./Form";
+
 function App() {
-  return <h1>Hello, World</h1>;
+  return (
+    <>
+      <Logo />
+      <Title />
+      <Subtitle />
+      <Form />
+    </>
+  );
 }
 
 export default App;
