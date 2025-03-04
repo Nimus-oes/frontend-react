@@ -1,6 +1,5 @@
 import Logo from "./components/Logo";
-import Title from "./components/Title";
-import Subtitle from "./components/Subtitle";
+import Heading from "./components/Heading";
 import Form from "./components/Form";
 import Main from "./components/Main";
 
@@ -9,8 +8,7 @@ function App() {
     <>
       <Logo />
       <Main>
-        <Title />
-        <Subtitle />
+        <Heading />
         <Form />
       </Main>
     </>
