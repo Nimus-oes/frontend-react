@@ -3,7 +3,7 @@ import Heading from "./components/Heading";
 import Form from "./components/Form";
 import Main from "./components/Main";
 
-function App() {
+export default function App() {
   return (
     <>
       <Logo />
@@ -14,5 +14,3 @@ function App() {
     </>
   );
 }
-
-export default App;

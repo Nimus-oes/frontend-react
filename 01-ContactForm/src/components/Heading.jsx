@@ -1,4 +1,4 @@
-function Heading() {
+export default function Heading() {
   return (
     <div>
       <h1>Interested in our business pricing?</h1>
@@ -9,5 +9,3 @@ function Heading() {
     </div>
   );
 }
-
-export default Heading;

@@ -1,4 +1,4 @@
-function Form() {
+export default function Form() {
   return (
     <form>
       <label htmlFor="name">
@@ -35,5 +35,3 @@ function Form() {
     </form>
   );
 }
-
-export default Form;

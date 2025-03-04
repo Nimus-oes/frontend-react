@@ -1,9 +1,7 @@
-function Logo() {
+export default function Logo() {
   return (
-    <header>
+    <header className="">
       <img src="./src/assets/Logo.svg" alt="Becv logo" />
     </header>
   );
 }
-
-export default Logo;
