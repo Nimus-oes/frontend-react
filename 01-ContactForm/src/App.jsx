@@ -1,7 +1,7 @@
-import Logo from "./Logo";
-import Title from "./Title";
-import Subtitle from "./Subtitle";
-import Form from "./Form";
+import Logo from "./components/Logo";
+import Title from "./components/Title";
+import Subtitle from "./components/Subtitle";
+import Form from "./components/Form";
 
 function App() {
   return (
