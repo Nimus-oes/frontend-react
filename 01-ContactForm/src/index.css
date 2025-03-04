@@ -10,6 +10,13 @@
   margin: 0;
 }
 
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
 body {
   font-family: "Be Vietnam Pro", sans-serif;
 }
