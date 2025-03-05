@@ -3,6 +3,7 @@ import Main from "./components/Main";
 import Title from "./components/Title";
 import Subtitle from "./components/Subtitle";
 import Form from "./components/Form";
+import "./App.css";
 
 export default function App() {
   return (

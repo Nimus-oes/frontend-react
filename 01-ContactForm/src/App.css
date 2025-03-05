@@ -1,0 +1,9 @@
+main {
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 850px) {
+  main {
+    max-width: 810px;
+  }
+}
