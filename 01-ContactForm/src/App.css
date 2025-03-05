@@ -2,8 +2,57 @@ main {
   margin: 0 auto;
 }
 
+.input-item {
+  display: block;
+}
+
+.input-field {
+  width: 100%;
+}
+
 @media only screen and (min-width: 850px) {
   main {
     max-width: 810px;
+  }
+
+  .form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "name email"
+      "size subject"
+      "message message"
+      "consent consent"
+      "button button";
+    gap: 18px;
+    padding: 32px;
+  }
+
+  .name {
+    grid-area: name;
+  }
+
+  .email {
+    grid-area: email;
+  }
+
+  .size {
+    grid-area: size;
+  }
+
+  .subject {
+    grid-area: subject;
+  }
+
+  .message {
+    grid-area: message;
+  }
+
+  .consent {
+    grid-area: consent;
+  }
+
+  .button {
+    grid-area: button;
   }
 }
