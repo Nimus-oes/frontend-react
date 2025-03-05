@@ -2,12 +2,32 @@ main {
   margin: 0 auto;
 }
 
-.input-item {
-  display: block;
+.title {
+  font-weight: 700;
+  font-size: 64px;
 }
 
-.input-field {
+.subtitle {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.input-item {
+  display: block;
+  font-weight: 500;
+  font-size: 14;
+}
+
+.input-field,
+.consent {
   width: 100%;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 20px;
 }
 
 @media only screen and (min-width: 850px) {
