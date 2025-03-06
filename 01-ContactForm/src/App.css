@@ -65,14 +65,18 @@
   margin-top: 4px;
   padding: 22px;
   height: 68px;
+  font-weight: 600;
   color: rgb(17, 23, 41);
 }
 
 .input-field,
 .consent {
   width: 100%;
-  font-weight: 600;
   font-size: 16px;
+}
+
+.consent {
+  font-weight: 400;
 }
 
 .message-field {
