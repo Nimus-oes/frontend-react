@@ -31,14 +31,15 @@
 
 .title {
   font-weight: 700;
-  font-size: 40px;
+  font-size: var(--40px);
   line-height: 125%;
   margin-bottom: 16px;
+  width: 100%;
 }
 
 .subtitle {
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--16px);
   line-height: 150%;
   margin-bottom: 72px;
 }
@@ -64,7 +65,7 @@
 .input-field {
   margin-top: 4px;
   padding: 22px;
-  height: 68px;
+  height: var(--68px);
   font-weight: 600;
   color: rgb(17, 23, 41);
 }
@@ -72,7 +73,7 @@
 .input-field,
 .consent {
   width: 100%;
-  font-size: 16px;
+  font-size: var(--16px);
 }
 
 .consent {
@@ -83,7 +84,7 @@
 }
 
 .message-field {
-  height: 206px;
+  height: var(--206px);
   resize: none;
 }
 
@@ -95,15 +96,15 @@
 
 .button {
   font-weight: 700;
-  font-size: 20px;
+  font-size: var(--20px);
   padding: 24px 0;
   color: rgb(64, 54, 169);
   background-color: rgb(255, 255, 255);
 }
 
 .checkbox {
-  width: 20px;
-  height: 20px;
+  width: var(--20px);
+  height: var(--20px);
 }
 
 .dropdown {
@@ -118,8 +119,8 @@
 }
 
 @media only screen and (min-width: 850px) {
-  main {
-    max-width: 810px;
+  .main {
+    max-width: var(--810px);
   }
 
   .header {
@@ -127,13 +128,13 @@
   }
 
   .title {
-    font-size: 64px;
-    width: 577px;
+    font-size: var(--64px);
+    width: min(var(--577px), 100vw);
   }
 
   .subtitle {
-    font-size: 32px;
-    width: 641px;
+    font-size: var(--32px);
+    width: min(var(--641px), 100vw);
   }
 
   .form {

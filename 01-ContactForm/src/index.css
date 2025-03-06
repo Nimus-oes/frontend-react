@@ -5,6 +5,19 @@
   margin: 0;
 }
 
+:root {
+  --16px: 1rem;
+  --20px: 1.25rem;
+  --32px: 2rem;
+  --40px: 2.5rem;
+  --64px: 4rem;
+  --68px: 4.25rem;
+  --206px: 12.875rem;
+  --577px: 36.0625rem;
+  --641px: 40.0625rem;
+  --810px: 50.625rem;
+}
+
 body::before {
   content: ""; /* Creates an invisible element before the body’s content, 
   allowing to apply a background image and styles to it */
