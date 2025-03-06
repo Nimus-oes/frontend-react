@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div>
+    <div className="header">
       <img src="./src/assets/Logo.svg" alt="Beck logo" />
     </div>
   );

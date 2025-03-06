@@ -30,7 +30,7 @@ export default function Form() {
         <textarea
           name="message"
           id="message"
-          className="input-field"
+          className="input-field message-field"
         ></textarea>
       </label>
       <label htmlFor="consent" className="input-item consent">
