@@ -38,8 +38,13 @@ export default function Form() {
         ></textarea>
       </label>
       <label htmlFor="consent" className="input-item consent">
-        <input type="checkbox" name="consent" id="consent" /> I consent to being
-        contacted by the team.
+        <input
+          type="checkbox"
+          name="consent"
+          id="consent"
+          className="checkbox"
+        />
+        I consent to being contacted by the team.
       </label>
       <button className="button">Contact Sales</button>
     </form>

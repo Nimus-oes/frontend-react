@@ -77,6 +77,9 @@
 
 .consent {
   font-weight: 400;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .message-field {
@@ -95,6 +98,11 @@
   font-size: 20px;
   padding: 24px 0;
   color: rgb(64, 54, 169);
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
 }
 
 .dropdown {
