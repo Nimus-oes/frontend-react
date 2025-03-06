@@ -50,6 +50,7 @@
   display: grid;
   grid-template-columns: 1fr;
   background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
 }
 
 .input-item {
@@ -65,6 +66,7 @@
   padding: 22px;
   height: 68px;
   color: rgb(17, 23, 41);
+  border-radius: 16px;
 }
 
 .input-field,
@@ -83,6 +85,7 @@
   font-size: 20px;
   padding: 24px 0;
   color: rgb(64, 54, 169);
+  border-radius: 16px;
 }
 
 .dropdown {
