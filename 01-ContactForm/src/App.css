@@ -26,6 +26,7 @@
 .title,
 .subtitle {
   text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 .title {
@@ -55,12 +56,14 @@
   font-weight: 500;
   font-size: 14;
   margin-bottom: 6px;
+  color: rgb(255, 255, 255);
 }
 
 .input-field {
   margin-top: 4px;
   padding: 22px;
   height: 68px;
+  color: rgb(17, 23, 41);
 }
 
 .input-field,
@@ -78,6 +81,7 @@
   font-weight: 700;
   font-size: 20px;
   padding: 24px 0;
+  color: rgb(64, 54, 169);
 }
 
 .dropdown {
