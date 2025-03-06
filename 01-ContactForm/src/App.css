@@ -45,7 +45,7 @@
 .form {
   width: 100%;
   padding: 20px 12px;
-  gap: 24px;
+  gap: 18px;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -54,6 +54,7 @@
   display: block;
   font-weight: 500;
   font-size: 14;
+  margin-bottom: 6px;
 }
 
 .input-field {
