@@ -1,11 +1,11 @@
 export default function Form() {
   return (
     <form className="form">
-      <label htmlFor="name" className="input-item name">
+      <label htmlFor="name" className="input-item name" required>
         Name
         <input type="text" name="name" id="name" className="input-field" />
       </label>
-      <label htmlFor="email" className="input-item email">
+      <label htmlFor="email" className="input-item email" required>
         Company Email
         <input type="email" name="email" id="email" className="input-field" />
       </label>
@@ -43,6 +43,7 @@ export default function Form() {
           name="consent"
           id="consent"
           className="checkbox"
+          required
         />
         I consent to being contacted by the team.
       </label>
