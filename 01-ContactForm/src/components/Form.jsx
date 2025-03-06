@@ -11,7 +11,11 @@ export default function Form() {
       </label>
       <label htmlFor="company-size" className="input-item size">
         Company Size
-        <select name="company-size" id="company-size" className="input-field">
+        <select
+          name="company-size"
+          id="company-size"
+          className="input-field dropdown"
+        >
           <option value="sm">50-100 employees</option>
           <option value="md">100-200 employees</option>
           <option value="lg">Over 200 employees</option>
@@ -19,7 +23,7 @@ export default function Form() {
       </label>
       <label htmlFor="subject" className="input-item subject">
         Subject
-        <select name="subject" id="subject" className="input-field">
+        <select name="subject" id="subject" className="input-field dropdown">
           <option value="">Building Landing Pages</option>
           <option value="">About Pricing</option>
           <option value="">Other</option>

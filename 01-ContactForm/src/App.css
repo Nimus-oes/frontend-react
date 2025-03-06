@@ -80,6 +80,18 @@
   padding: 24px 0;
 }
 
+.dropdown {
+  -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url(../src/assets/Expand_down.svg);
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position-x: 96%;
+  background-position-y: 50%;
+}
+
 @media only screen and (min-width: 850px) {
   main {
     max-width: 810px;
